@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelatihan HTML - Landing Page Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <!-- Header -->
+    <header style="height: 100vh;">
+        <!-- Navigasi -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Jasa.zal</a>
+            </div>
+            <div id="hamburger" class="icon">
+                <span class="material-symbols-outlined">reorder</span>
+            </div>
+            <div id="nav-link" class="active">
+                <a href="#home">Beranda</a>
+                <a href="#about">Tentang</a>
+                <a href="#services">Layanan</a>
+                <a href="#contact">Kontak</a>
+            </div>
+        </nav>
+
+        <!-- section judul -->
+        <section style="background-image: url(/img/homeTitle.jpg); background-size: cover; background-position: center; color: white; text-align: center; padding: 20px; margin-top: 36px;min-height: 250px;">
+            <div class="textImage" data-aos="fade-down"
+            data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
+                <h1 style="text-shadow: 0 0 5px #14213d;">Selesaikan Tugas Anda Dengan Cepat Bersama Kita</h1>
+                <p style="text-shadow: 0 0 5px #14213d;">Anda bingung?? banyak tugas dan deadline mepet?</p>
+                <h3 style="text-shadow: 0 0 5px #14213d;">Tugas selese, pikiran "enaknyee"</h3>
+            </div>
+        </section>
+
+        <!-- Hero Section -->
+        <section id="home" style="text-align: center; padding: 50px 20px; background-image: linear-gradient(180deg, #0F1B2B, #ffffff); border-radius: 0% 100% 50% 50% / 0% 0% 50% 50% ; display: flex; justify-content: center; align-items: center; height: 50%;">
+            <div class="text-belanjanow" data-aos="fade"
+            data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
+                <h2 style="color: #14213d; text-shadow: 0 0 5px #FFECDB; font-size: 45px;">Mulailah Joki Tugas Sekarang</h2>
+                <p style="color: #FFECDB; text-shadow: 0 0 5px #14213d;">Bingung mau joki tugas dimana? dan anda bingung mencari jasa yang dapat dipercaya?</p>
+                <p style="color: #FFECDB; text-shadow: 0 0 5px #14213d;">Tenang.. di <strong>Jasa.zal</strong> anda dapat menemukan solusi dari keluhan anda</p>
+                <button>Kontak Kami</button>
+            </div>
+        </section>
+    </header>
+
+    <!-- Tentang -->
+    <section id="about" style="padding: 70px 20px; text-align: center; display: flex; justify-content: flex-start; align-items: center;  flex-direction: column;">
+        <div style="max-width: 760px; display: flex; align-items: center; flex-direction: column;">
+            <h2 style="color: #14213d; font-size: 38px;">Tentang Kami</h2>
+            <p><strong>Jasa.zal</strong> adalah website legal yang difokuskan untuk membantu para pelajar maupun pekerja yang sedang kesulitan dalam mengerjakan tugas ataupun saat deadline mepet Dengan tim berpengalaman dan pelayanan terbaik, kami siap memenuhi kebutuhan Anda secara efisien dan berkualitas. Kepercayaan klien adalah prioritas utama kami, dan kami terus berinovasi untuk memberikan hasil yang memuaskan.</p>
+        </div>
+        
+    </section>
+    
+    <!-- Layanan -->
+    <section id="services" style="background-color: #FFFFFF; padding: 70px 20px; text-align: center; min-height: 100vh; display: flex; flex-direction: column; gap: 50px;">
+        <h2 style="color: #fb8500; font-size: 48px;">Layanan Kami</h2>
+        
+        <div style="display: flex; justify-content: center; width: 100%; height: max-content; flex-wrap: wrap; gap: 20px;">
+            <div class="box-services">
+                <h3>Dikerjakan dengan profesional</h3>
+                <p>Kami menyelesaikan dengan waktu yang sesuai dengan kesepakatan bersama dan dikerjakan sesuai kebutuhan pelanggan</p>
+            </div>
+            <div class="box-services">
+                <h3>Pengerjaan instan</h3>
+                <p>Meskipun deadline mepet, kami dapat menyelesaikan tugas dengan cepat dan tepat (terdapat biaya tambahan)</p>
+            </div>
+            <div class="box-services">
+                <h3>Dokumentasi pengerjaan</h3>
+                <p>Kami memberikan penjelasan terkait dengan tugas yang kami kerjakan</p>
+            </div>
+            <div class="box-services">
+                <h3>Reffund</h3>
+                <p>Menyediakan Reffund atau pengembalian uang jika tugas tidak sesuai dengan keinginan pelanggan</p>
+            </div>
+        </div>
+        <!-- <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>HTML Dasar</h3>
+                <p>Belajar struktur dasar HTML</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Form HTML</h3>
+                <p>Membuat form interaktif</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Tabel HTML</h3>
+                <p>Mengatur data dalam tabel</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Tabel HTML</h3>
+                <p>Mengatur data dalam tabel</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Tabel HTML</h3>
+                <p>Mengatur data dalam tabel</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Tabel HTML</h3>
+                <p>Mengatur data dalam tabel</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Tabel HTML</h3>
+                <p>Mengatur data dalam tabel</p>
+            </div>
+            <div style="background-color: white; margin: 10px; padding: 20px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h3>Tabel HTML</h3>
+                <p>Mengatur data dalam tabel</p>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Testimoni -->
+    <section style="padding: 30px 20px; text-align: center; min-height: 100vh; display: flex; flex-direction: column; gap: 50px;">
+        <h2 style="color: #fb8500; font-size: 42px;">Apa Kata Pelanggan</h2>
+        
+        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+                <p>"Pelayanan luar biasa! Cepat, profesional, dan hasilnya melebihi ekspektasi. Sangat direkomendasikan!"</p>
+                <p><strong>- Budi, Mahasiswa</strong></p>
+            </div>
+            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+                <p>"Sangat memuaskan! Timnya responsif dan ramah, membuat proses berjalan lancar tanpa kendala."</p>
+                <p><strong>- Ani, Siswa</strong></p>
+            </div>
+            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+                <p>"Kualitas terbaik! Hasil yang diberikan sangat detail dan sesuai dengan kebutuhan saya. Akan kembali lagi!"</p>
+                <p><strong>- Bani, Mahasiswa</strong></p>
+            </div>
+            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+                <p>"Harga terjangkau, layanan premium! Kombinasi sempurna antara kualitas tinggi dan biaya yang bersahabat."</p>
+                <p><strong>- Dani, Mahasiswa</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" style="background-color: #fca311; color: white; padding: 30px 20px; text-align: center;">
+        <h2>Hubungi Kami</h2>
+        <p>Facebook: jasazal</p>
+        <p>instagram: jasazal</p>
+        <p>Email: jasazal@gmail.com</p>
+        <p>Telepon: (021) 123-4567</p>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #14213d; color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2025 Jasa Tugas. by <span><a href="#" style="color: #fca311; cursor: pointer;">Rizal</a></span>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
