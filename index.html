@@ -6,7 +6,7 @@
     <title>Pelatihan HTML - Landing Page Sederhana</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
@@ -19,7 +19,7 @@
                 <a href="#">Jasa.zal</a>
             </div>
             <div id="hamburger" class="icon">
-                <span class="material-symbols-outlined">reorder</span>
+                <i class="fa fa-reorder" style="font-size: 30px;"></i></a>
             </div>
             <div id="nav-link" class="active">
                 <a href="#home">Beranda</a>
@@ -40,7 +40,7 @@
         </section>
 
         <!-- Hero Section -->
-        <section id="home" style="text-align: center; padding: 50px 20px; background-image: linear-gradient(180deg, #0F1B2B, #ffffff); border-radius: 0% 100% 50% 50% / 0% 0% 50% 50% ; display: flex; justify-content: center; align-items: center; height: 50%;">
+        <section id="home" style="text-align: center; padding: 70px 20px; background-image: linear-gradient(180deg, #0F1B2B, #ffffff); border-radius: 0 0 40% 40%; display: flex; justify-content: center; align-items: center; height: 50%;">
             <div class="text-belanjanow" data-aos="fade"
             data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                 <h2 style="color: #14213d; text-shadow: 0 0 5px #FFECDB; font-size: 45px;">Mulailah Joki Tugas Sekarang</h2>
@@ -53,7 +53,7 @@
 
     <!-- Tentang -->
     <section id="about" style="padding: 70px 20px; text-align: center; display: flex; justify-content: flex-start; align-items: center;  flex-direction: column;">
-        <div style="max-width: 760px; display: flex; align-items: center; flex-direction: column;">
+        <div style="max-width: 760px; display: flex; align-items: center; flex-direction: column;" data-aos="fade-right" data-aos-duration="3000">
             <h2 style="color: #14213d; font-size: 38px;">Tentang Kami</h2>
             <p><strong>Jasa.zal</strong> adalah website legal yang difokuskan untuk membantu para pelajar maupun pekerja yang sedang kesulitan dalam mengerjakan tugas ataupun saat deadline mepet Dengan tim berpengalaman dan pelayanan terbaik, kami siap memenuhi kebutuhan Anda secara efisien dan berkualitas. Kepercayaan klien adalah prioritas utama kami, dan kami terus berinovasi untuk memberikan hasil yang memuaskan.</p>
         </div>
@@ -62,22 +62,22 @@
     
     <!-- Layanan -->
     <section id="services" style="background-color: #FFFFFF; padding: 70px 20px; text-align: center; display: flex; flex-direction: column; gap: 50px;">
-        <h2 style="color: #fb8500; font-size: 48px;">Layanan Kami</h2>
+        <h2 class="title-section">Layanan Kami</h2>
         
         <div style="display: flex; justify-content: center; width: 100%; height: max-content; flex-wrap: wrap; gap: 20px;">
-            <div class="box-services">
+            <div class="box-services" data-aos="fade-right" data-aos-duration="3000">
                 <h3>Dikerjakan dengan profesional</h3>
                 <p>Kami menyelesaikan dengan waktu yang sesuai dengan kesepakatan bersama dan dikerjakan sesuai kebutuhan pelanggan</p>
             </div>
-            <div class="box-services">
+            <div class="box-services" data-aos="fade-right" data-aos-duration="3000">
                 <h3>Pengerjaan instan</h3>
                 <p>Meskipun deadline mepet, kami dapat menyelesaikan tugas dengan cepat dan tepat (terdapat biaya tambahan)</p>
             </div>
-            <div class="box-services">
+            <div class="box-services" data-aos="fade-right" data-aos-duration="3000">
                 <h3>Dokumentasi pengerjaan</h3>
                 <p>Kami memberikan penjelasan terkait dengan tugas yang kami kerjakan</p>
             </div>
-            <div class="box-services">
+            <div class="box-services" data-aos="fade-right" data-aos-duration="3000">
                 <h3>Reffund</h3>
                 <p>Menyediakan Reffund atau pengembalian uang jika tugas tidak sesuai dengan keinginan pelanggan</p>
             </div>
@@ -86,35 +86,68 @@
 
     <!-- Testimoni -->
     <section style="padding: 30px 20px; text-align: center; display: flex; flex-direction: column; gap: 50px;">
-        <h2 style="color: #fb8500; font-size: 42px;">Apa Kata Pelanggan</h2>
+        <h2 class="title-section">Apa Kata Pelanggan</h2>
         
         <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px;  display: flex; flex-direction: column; justify-content: space-between; gap: 30px;">
                 <p>"Pelayanan luar biasa! Cepat, profesional, dan hasilnya melebihi ekspektasi. Sangat direkomendasikan!"</p>
-                <p><strong>- Budi, Mahasiswa</strong></p>
+                <div class="customer-testi">
+                    <img class="cust-img" src="cj.jpg" alt="">
+                    <p><strong>Carl Johnson, Mahasiswa</strong></p>
+                </div>
             </div>
-            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; display: flex; flex-direction: column; justify-content: space-between; gap: 30px;">
                 <p>"Sangat memuaskan! Timnya responsif dan ramah, membuat proses berjalan lancar tanpa kendala."</p>
-                <p><strong>- Ani, Siswa</strong></p>
+                <div class="customer-testi">
+                    <img class="cust-img" src="berbie.jpg" alt="">
+                    <p><strong>Berbie, Siswi</strong></p>
+                </div>
             </div>
-            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; display: flex; flex-direction: column; justify-content: space-between; gap: 30px;">
                 <p>"Kualitas terbaik! Hasil yang diberikan sangat detail dan sesuai dengan kebutuhan saya. Akan kembali lagi!"</p>
-                <p><strong>- Bani, Mahasiswa</strong></p>
+                <div class="customer-testi">
+                    <img class="cust-img" src="pororo.jpg" alt="">
+                    <p><strong>Pororo, Siswa</strong></p>
+                </div>
             </div>
-            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+            <div class="box-testi" style="margin: 10px; padding: 20px; border: 2px solid #0F1B2B; border-radius: 15px; width: 250px; display: flex; flex-direction: column; justify-content: space-between; gap: 30px;">
                 <p>"Harga terjangkau, layanan premium! Kombinasi sempurna antara kualitas tinggi dan biaya yang bersahabat."</p>
-                <p><strong>- Dani, Mahasiswa</strong></p>
+                <div class="customer-testi">
+                    <img class="cust-img" src="madara.jpg" alt="">
+                    <p><strong>Madara, Mahasiswa</strong></p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Kontak -->
-    <section id="contact" style="background-color: #fca311; color: white; padding: 30px 20px; text-align: center;">
+    <section id="contact" class="contact"">
         <h2>Hubungi Kami</h2>
-        <p>Facebook: jasazal</p>
-        <p>instagram: jasazal</p>
-        <p>Email: jasazal@gmail.com</p>
-        <p>Telepon: (021) 123-4567</p>
+        <div class="container-contact">
+            <div class="contactme">
+                <h2>Jasa.zal</h2>
+                <p>Jl. Uciha No.01, Kec. Ninja, Kabupaten Konoha, Negara Api 12345</p>
+                <p>Email: jasazal@gmail.com</p>
+                <p>Telepon: (021) 123-4567</p>
+            </div>
+            <ul class="contactme">
+                <li><p>Menu</p></li>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="contactme">
+                <p>follow us</p></li>
+                <div class="box-icon">
+                    <a href="#"><i class="fa fa-instagram" style="font-size: 30px;"></i></a></li>
+                    <a href="#"><i class="fa fa-facebook" style="font-size: 30px;"></i></a></li>
+                    <a href="#"><i class="fa fa-twitter" style="font-size: 30px;"></i></a></li>
+                    <a href="#"><i class="fa fa-linkedin" style="font-size: 30px;"></i></a></li>
+                </div>
+                <a href="#contact" class="btn-contactus"><span><i class="fa fa-whatsapp" style="font-size: 20px;"></i></span>Hubungi kami</a></li>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
