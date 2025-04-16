@@ -235,9 +235,9 @@ a {
 }
 .cust-img {
     width: 50px;
-    border-radius: 50% 50% 50% 5px;
-    -webkit-border-radius: 50% 50% 50% 5px;
-    -moz-border-radius: 50% 50% 50% 5px;
-    -ms-border-radius: 50% 50% 50% 5px;
-    -o-border-radius: 50% 50% 50% 5px;
+    border-radius: 5px 50% 50% 50%;
+    -webkit-border-radius: 5px 50% 50% 50%;
+    -moz-border-radius: 5px 50% 50% 50%;
+    -ms-border-radius: 5px 50% 50% 50%;
+    -o-border-radius: 5px 50% 50% 50%;
 }
